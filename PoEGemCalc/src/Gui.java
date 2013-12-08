@@ -135,7 +135,7 @@ public class Gui extends JFrame {
 		importGems();
 		setTitle("PoE GemCalc");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 700, 400);
+		setBounds(100, 100, 800, 400);
 
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
@@ -151,7 +151,7 @@ public class Gui extends JFrame {
 		setContentPane(contentPane);
 
 		JSplitPane splitPane = new JSplitPane();
-		splitPane.setResizeWeight(0.35);
+		splitPane.setResizeWeight(0.25);
 		contentPane.add(splitPane, BorderLayout.CENTER);
 
 		JPanel left = new JPanel();
